@@ -12,7 +12,7 @@
   
 
   <!-- Favicons -->
-  <link href="./포트폴리오 이미지방/파비콘-white.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -33,31 +33,31 @@
 
 </head>
 
-<body class="resume-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="./포트폴리오 이미지방/로고 black (1).png" alt="">
+        <h1 class="sitename bonheur-kim">Kim Jeong Gyun</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html"  class="active">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list-ul"></i>
       </nav>
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/iokzo/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
 
     </div>
@@ -65,90 +65,88 @@
 
   <main class="main">
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2>Portfolio Details</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>포항중앙고등학교</h4>
-              <h5>2016 - 2018</h5>
-              <p>경상북도 포항시 북구 소티재로151번길 11</p>
-              <p><em>포항중앙고등학교에서 문과 과정으로 3년간 재학하며, 인문학적 사고력과 표현력을 키워왔습니다.</em></p>
-            </div><!-- Edn Resume Item -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
 
-            <div class="resume-item">
-              <h4>부산가톨릭대학교</h4>
-              <h5>2019 - 2022</h5>
-              <p>부산광역시 금정구 오륜대로 57</p>
-              <p><em>부산가톨릭대학교에서 이과 계열 전공을 이수하던 중, 학문적 흥미와 적성이 제 진로와는 다소 다르다는 것을 깨달았습니다. 이후 진로에 대해 깊이 고민한 끝에, 제가 진정으로 열정을 느끼는 분야를 향해 나아가고자 중퇴를 결심하였습니다. </em></p>
-            </div><!-- Edn Resume Item -->
+              <div class="swiper-wrapper align-items-center">
 
-            
-           
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                </div>
 
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>세븐일레븐 포항초곡점</h4>
-              <h5>2021 - 2022</h5>
-              <p>경상북도 포항시 북구 초곡지구로58번길 80</p>
-              
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>세븐일레븐 부산외대중앙점</h4>
-              <h5>2023 - 2024</h5>
-              <p>부산 금정구 두실로 55-2 구서동, 큐갤러리</p>
-              
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>GS25 센텀글로리아점</h4>
-              <h5>2023 - 2024</h5>
-              <p>부산광역시 해운대구 재송2로74번길 23 1층</p>
-            <ul>
-                <li><em>편의점 아르바이트를 통해 고객 응대와 매장 운영의 기본을 익혔고, 매장마다 요구되는 업무 스타일에 유연하게 적응하여 실무 감각을 키울 수 있었습니다.  </em></li>
-                <li><em>단기적인 경험이 아닌, 꾸준한 1년 단위의 근무를 통해 책임감과 성실함을 증명했습니다.</em></li>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: ASU Company</li>
+                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
               </ul>
-            </div><!-- Edn Resume Item -->
-            
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              </p>
+            </div>
           </div>
-          
-          <div>
-            <h3 class="resume-title" data-aos="fade-up" data-aos-delay="300">Recent</h3>
-            <div class="resume-item pb-0"  data-aos="fade-up" data-aos-delay="300">
-                <h4>센텀직업전문학교</h4>
-                <h5>2024 - 2025</h5>
-                <p>부산광역시 해운대구 우동 센텀중앙로 48 21 501호~503호 에이스하이테크</p>
-                <p><em>대학교를 중퇴한 이후, 저는 스스로의 진로에 대해 깊이 고민했고, 그 결과 디자인이라는 분야에서의 실질적인 역량을 키우기 위해 센텀직업전문학교에 진학하게 되었습니다.</em></p>
-            </div><!-- Edn Resume Item -->
-          </div>
-
-          
 
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
- <footer id="footer" class="footer light-background">
+  <footer id="footer" class="footer light-background">
 
     <div class="container">
       <div class="copyright text-center ">
