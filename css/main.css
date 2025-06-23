@@ -139,7 +139,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
+/*------------------------------------dark--------------------------
 # Global Header
 --------------------------------------------------------------*/
 .header {
@@ -156,8 +156,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 70px;
+  margin-right: 70px;
 }
 
 .header .logo h1 {
@@ -176,7 +176,7 @@ h6 {
   padding-left: 6px;
   display: inline-block;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .header .header-social-links a:hover {
@@ -721,13 +721,14 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 700;
+  
 }
 
 .hero p {
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 40px;
   color: var(--heading-color);
 }
 
