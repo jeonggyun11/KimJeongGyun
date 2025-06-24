@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 
+ 
 .bonheur-kim {
   font-family: "Bonheur Royale", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.typed {
+  min-height: 40px; /* 또는 예상되는 한 줄 텍스트 높이 */
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.typed-cursor {
+  font-size: 2em;          /* 텍스트보다 약간 크게 */
+  line-height: 2;            /* 줄 높이를 딱 맞게 */
+  vertical-align: middle;    /* 커서를 수직 중앙 정렬 */
+  display: inline-block;
+  color: #7e7e7e;
+}
+
 
 
 
@@ -21,8 +43,8 @@
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #34b7a7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --accent-color-kim: #ff0000;
-   --accent-color-kim2: #ff5e5e;
+  --accent-color-kim: #ff6c6c;
+   --accent-color-kim2: #fd7b7b;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
