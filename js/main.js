@@ -198,3 +198,9 @@
       backDelay: 2000
     });
   }
+
+  document.querySelector(".instagram").addEventListener("click", function (e) {
+  e.preventDefault(); // 기본 링크 이동 막기
+  window.open("https://www.instagram.com/iokzo/", "_blank");
+});
+
