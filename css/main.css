@@ -28,8 +28,6 @@ img {
 }
 
 
-
-
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -849,6 +847,31 @@ section,
   transition: 0.9s;
 }
 
+.gradient-bar {
+  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+
+
+.gradient-bar-1 {
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.gradient-bar-2 {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.skills .progress .skill .skill-icon {
+  margin-right: 10px;
+  margin-bottom: 2.5px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.skill-icon {
+  transition: transform 0.3s ease;
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
