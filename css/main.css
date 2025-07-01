@@ -1363,6 +1363,27 @@ background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.btn-custom {
+  background: linear-gradient(135deg, #34b7a7, #4bdecd);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  
+}
+
+.btn-custom:hover {
+  border:solid 1px #34b7a7; 
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  
+  transform: translateY(-2px);
+  color: #34b7a7;
+  
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
